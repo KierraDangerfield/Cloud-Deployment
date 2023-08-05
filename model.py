@@ -1,11 +1,7 @@
 import pandas as pd
 import numpy as np
-import pickle
-
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-
+import pickle
 from sklearn.metrics import classification_report, confusion_matrix
 
 iris = pd.read_csv("./Data/iris.csv")
